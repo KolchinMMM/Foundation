@@ -55,7 +55,7 @@ def register(name, mail, login, pwd, repeated_pwd, grad):
         }
     )
     collection_organisation.insert_one({
-        "owner": name,
+        "owner": login,
         "name": "",
         "members": [
             {

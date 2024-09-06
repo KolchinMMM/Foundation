@@ -11,20 +11,20 @@ collection_organisation = current_db["organisation"]
 collection_user = current_db["user"]
 collection_app = current_db["app"]
 
-
+# Пример структуры, хранимой в базе данных
 organisation_example = {
     "owner": "name",
     "name": "cool_name",
     "members": [
         {
             "name": "mem_name",
-            "graduation": "Ученая степень",
-            "role": "Квасогон"
+            "graduation": "Ученая степень 1",
+            "role": "Роль 1"
         },
         {
             "name": "mem2_name",
-            "graduation": "Ученая степень",
-            "role": "Обама"
+            "graduation": "Ученая степень 2",
+            "role": "Роль 2"
         }
     ]
 }
@@ -32,8 +32,8 @@ organisation_example = {
 user_example = {
     "name": "FIO",
     "mail": "mail@mail.mail",
-    "login": "jopa",
-    "password": "pwd"
+    "login": "MyCoolLogin",
+    "password": "MyPassword"
 }
 
 
